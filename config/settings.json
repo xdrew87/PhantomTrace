@@ -1,0 +1,20 @@
+{
+  "modules": {
+    "username_lookup": {"enabled": true, "timeout": 10, "max_workers": 20},
+    "email_intel": {"enabled": true, "timeout": 10},
+    "ip_lookup": {"enabled": true, "timeout": 10},
+    "phone_lookup": {"enabled": true, "timeout": 10},
+    "domain_lookup": {"enabled": true, "timeout": 15},
+    "social_media": {"enabled": true, "timeout": 10, "max_workers": 15}
+  },
+  "output": {
+    "reports_dir": "reports",
+    "logs_dir": "logs",
+    "log_level": "INFO"
+  },
+  "rate_limits": {
+    "requests_per_second": 5,
+    "retry_attempts": 3,
+    "retry_delay": 2
+  }
+}

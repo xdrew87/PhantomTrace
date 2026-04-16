@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "phantomtrace"
+version = "1.0.0"
+description = "Professional open-source OSINT intelligence framework"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+keywords = ["osint", "intelligence", "security", "recon", "cli"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+]
+dependencies = [
+    "rich>=13.0.0",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+    "phonenumbers>=8.13.0",
+    "dnspython>=2.4.0",
+    "python-whois>=0.8.0",
+    "aiohttp>=3.9.0",
+]
+
+[project.scripts]
+phantomtrace = "main:main"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/PhantomTrace"
+Issues = "https://github.com/yourusername/PhantomTrace/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["modules*", "utils*"]
