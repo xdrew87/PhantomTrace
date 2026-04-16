@@ -15,19 +15,20 @@
 
 ## Screenshots
 
-> 📸 Screenshots below — take these after your first run and drop the images into a `docs/` folder in the repo, then they'll show here automatically.
+
 
 ### Main Menu
-![PhantomTrace Main Menu](docs/screenshot-menu.png)
+![PhantomTrace Main Menu](docs/Screenshot-menu.png)
 
 ### Username Lookup
-![Username Lookup](docs/screenshot-username.png)
+![Username Lookup](docs/Screenshot-username.png)
 
 ### IP Lookup Result
-![IP Lookup](docs/screenshot-ip.png)
+![IP Lookup](docs/Screenshot-ip.png)
+![IP Lookup](docs/Screenshot-ip2.png)
 
 ### HTML Report Export
-![Report](docs/screenshot-report.png)
+![Report](docs/Screenshot-report.png)
 
 **To add your own screenshots:**
 1. Run `python main.py` and take a screenshot of each screen
