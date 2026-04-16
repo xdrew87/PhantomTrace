@@ -30,12 +30,6 @@
 ### HTML Report Export
 ![Report](docs/Screenshot-reports.png)
 
-**To add your own screenshots:**
-1. Run `python main.py` and take a screenshot of each screen
-2. Save them into a `docs/` folder inside the repo
-3. Name them to match the filenames above
-4. Push — they'll appear here on GitHub automatically
-
 ---
 
 ## Features
@@ -56,7 +50,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/PhantomTrace.git
+git clone https://github.com/xdrew87/PhantomTrace.git
 cd PhantomTrace
 pip install -r requirements.txt
 cp config/.env.example config/.env
