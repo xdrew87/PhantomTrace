@@ -18,6 +18,7 @@
 
 
 ### Main Menu
+![PhantomTrace Main Menu](docs/Screenshot-disclaimer.png)
 ![PhantomTrace Main Menu](docs/Screenshot-menu.png)
 
 ### Username Lookup
