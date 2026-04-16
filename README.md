@@ -13,6 +13,30 @@
 
 ---
 
+## Screenshots
+
+> 📸 Screenshots below — take these after your first run and drop the images into a `docs/` folder in the repo, then they'll show here automatically.
+
+### Main Menu
+![PhantomTrace Main Menu](docs/screenshot-menu.png)
+
+### Username Lookup
+![Username Lookup](docs/screenshot-username.png)
+
+### IP Lookup Result
+![IP Lookup](docs/screenshot-ip.png)
+
+### HTML Report Export
+![Report](docs/screenshot-report.png)
+
+**To add your own screenshots:**
+1. Run `python main.py` and take a screenshot of each screen
+2. Save them into a `docs/` folder inside the repo
+3. Name them to match the filenames above
+4. Push — they'll appear here on GitHub automatically
+
+---
+
 ## Features
 
 - **Username Lookup** — Search 50+ platforms for username presence
@@ -31,7 +55,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/xdrew87/PhantomTrace.git
+git clone https://github.com/yourusername/PhantomTrace.git
 cd PhantomTrace
 pip install -r requirements.txt
 cp config/.env.example config/.env
