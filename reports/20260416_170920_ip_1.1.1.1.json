@@ -1,0 +1,64 @@
+{
+  "phantomtrace_report": {
+    "module": "ip",
+    "target": "1.1.1.1",
+    "generated": "2026-04-16T17:38:04.009324",
+    "data": {
+      "ip": "1.1.1.1",
+      "frosted_geoip": {
+        "ip": "1.1.1.1",
+        "isp": "Cloudflare, Inc",
+        "org": "APNIC and Cloudflare DNS Resolver project",
+        "hostname": "one.one.one.one",
+        "latitude": -27.4766,
+        "longitude": 153.0166,
+        "postal_code": "4101",
+        "city": "South Brisbane",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "continent_code": "AU",
+        "continent_name": "Oceania",
+        "region": "Queensland",
+        "district": null,
+        "timezone_name": "Australia/Brisbane",
+        "connection_type": "VPN/Datacenter",
+        "is_vpn": true,
+        "is_proxy": true,
+        "is_hosting": true,
+        "is_home_proxy": false,
+        "threat_level": "medium-high",
+        "asn_number": 13335,
+        "asn_org": "Cloudflare, Inc.",
+        "asn": "AS13335 - Cloudflare, Inc.",
+        "currency_code": "AUD",
+        "currency_name": "Australian Dollar",
+        "success": true,
+        "premium": false
+      },
+      "ip_api": {
+        "country": "Australia",
+        "countryCode": "AU",
+        "region": "QLD",
+        "regionName": "Queensland",
+        "city": "South Brisbane",
+        "zip": "4101",
+        "lat": -27.4766,
+        "lon": 153.0166,
+        "timezone": "Australia/Brisbane",
+        "isp": "Cloudflare, Inc",
+        "org": "APNIC and Cloudflare DNS Resolver project",
+        "as": "AS13335 Cloudflare, Inc.",
+        "proxy": false,
+        "hosting": true,
+        "query": "1.1.1.1"
+      },
+      "rdap": {
+        "name": "APNIC-LABS",
+        "type": "ASSIGNED PORTABLE",
+        "handle": "1.1.1.0 - 1.1.1.255",
+        "country": "AU"
+      },
+      "score": 20
+    }
+  }
+}
