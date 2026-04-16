@@ -28,7 +28,7 @@
 ![IP Lookup](docs/Screenshot-ip2.png)
 
 ### HTML Report Export
-![Report](docs/Screenshot-report.png)
+![Report](docs/Screenshot-reports.png)
 
 **To add your own screenshots:**
 1. Run `python main.py` and take a screenshot of each screen
