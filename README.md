@@ -31,7 +31,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/PhantomTrace.git
+git clone https://github.com/xdrew87/PhantomTrace.git
 cd PhantomTrace
 pip install -r requirements.txt
 cp config/.env.example config/.env
